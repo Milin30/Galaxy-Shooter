@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     public GameObject laserprefab;
     public float fireRate = 0.25f;
-    private float canFire = 0.0f;
+    public float canFire = 0.0f;
 
     [SerializeField]
     private float speed = 5.0f;
