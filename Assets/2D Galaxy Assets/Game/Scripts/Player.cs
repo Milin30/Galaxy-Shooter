@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
 
       // if space key pressed
       // spawn laser at player position
-      if (Input.GetKeyDown(KeyCode.Space))
+      if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0))
       {
         Instantiate(laserprefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
       }
